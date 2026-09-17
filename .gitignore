@@ -1,0 +1,12 @@
+# Word lock files
+~$*
+
+# superseded report versions; Kathmandu_UHI_Technical_Brief.docx is the current one
+Kathmandu_UHI_Report*.docx
+
+# scratch
+gb.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
