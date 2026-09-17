@@ -176,6 +176,11 @@ if HAVE and MULTI:
 
 # ----------------------------------------------------------------- document
 doc = Document()
+cp = doc.core_properties
+cp.author = AUTHOR
+cp.last_modified_by = AUTHOR
+cp.title = 'Urban Heat and Green-Space Assessment - Kathmandu Valley, Nepal'
+cp.subject = 'Land surface temperature, vegetation condition and heat exposure by district'
 st = doc.styles['Normal']
 st.font.name, st.font.size, st.font.color.rgb = 'Calibri', Pt(10.5), INK
 st.paragraph_format.space_after = Pt(7)
